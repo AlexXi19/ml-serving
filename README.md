@@ -1,5 +1,5 @@
-# ML Serving Framework 
-For rust & ml practice purposes, hope I can finish this 😅
+# Swerve: A Fullstack ML Serving Framework 
+Building for rust & ml practice purposes (for now), hope I can finish this 😅
 
 ## Design Objectives 
 In order of importance:
@@ -15,16 +15,17 @@ In order of importance:
 - [ ] Runs some python script to perform inference 
 
 ### Phase 2 
-- [ ] Robust message delivery from rust => python through some tbd network protocol 
-- [ ] Simple python interface 
-- [ ] Deployment
-    - [ ] Kubernetes
+- [ ] Robust message delivery from rust => python through some tbd network protocol/message queue
+- [ ] Simple python interface to configure model serving (instead of script)
+- [ ] Deployment 
+    - [ ] Containerized 
 
 ### Phase 3 
 - [ ] Batch Processing 
 - [ ] Observability 
 - [ ] Availability 
 - [ ] Speed
+- [ ] Kubernetes
 
 ### Phase very far in the future maybe never 
 - [ ] MLOps 
