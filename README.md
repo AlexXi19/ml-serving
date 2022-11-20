@@ -33,3 +33,18 @@ In order of importance:
     - [ ] Model validation 
     - [ ] Feature store 
 - [ ] Realtime, continuous learning 
+
+## CLI Random Thoughts
+Should feel like `npm` 
+
+- `swerve build` 
+- `swerve dev` 
+- `swerve serve` or `swerve start` to start the inference server
+- `swerve test` 
+
+## Design thoughts 
+- Python model environment using `envd` + rust web server all packaged on top of docker under the hood. 
+- Maybe have a `swerve.config` file? 
+
+## What `swerve` is trying to do 
+- Provides simple interface to start and deploy an inference server. 
