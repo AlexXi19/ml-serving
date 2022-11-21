@@ -46,10 +46,16 @@ Should feel like `npm`
 - Python model environment using `envd` + rust web server all packaged on top of docker under the hood. 
 - Maybe have a `swerve.config` file？
 - Separating server container and model container, scale individually. 
-- Multi-model serving
-- Non-http data entrypoints, kafka, dagster etc.
+- Multi-model serving 
+- Model from model store 
+- Non-http data entrypoints and outputs, kafka, dagster etc.
+    - data pipeline => serve => output storage 
+- Non-http serving api, grpc etc. 
 
 ## What `swerve` is trying to do 
 - Provides simple interface to start and deploy an ml inference server. 
 - United all aspects of machine learning into one platform (training, serving and more) 
 - Easy to use + Lightweight
+
+## Questions and Concerns 
+- 
