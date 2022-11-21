@@ -48,9 +48,10 @@ Should feel like `npm`
 - Separating server container and model container, scale individually. 
 - Multi-model serving 
 - Model from model store 
-- Non-http data entrypoints and outputs, kafka, dagster etc.
-    - data pipeline => serve => output storage 
-- Non-http serving api, grpc etc. 
+- Non-http entrypoints 
+    - Online: grpc
+    - Offline: kafka, dagster etc.
+        - data pipeline => predict => output storage 
 
 ## What `swerve` is trying to do 
 - Provides simple interface to start and deploy an ml inference server. 
