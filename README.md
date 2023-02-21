@@ -2,6 +2,10 @@
 
 Building for rust & ml practice purposes (for now), hope I can finish this 😅
 
+## Focus
+
+The goal of this project is not to make a general ML model serving framework, there are plenty out there. Instead, there will be a focus on certain areas of serving, like model autoscaling and orchestration for example.
+
 ## Feature Goals
 
 - Fast ML Inference
